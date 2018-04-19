@@ -1,0 +1,21 @@
+{
+  "name": "fizzbuzz-js",
+  "version": "1.0.0",
+  "description": "Tech Interview Training - FizzBuzz JS",
+  "main": "index.js",
+  "repository": "git@github.com:CraftAcademy/fizzbuzz-js.git",
+  "author": "Raoul DIFFOUO <diraulo@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1"
+  },
+  "scripts": {
+    "test": "mocha --require babel-polyfill --require babel-register",
+    "test-watch":
+      "mocha --require babel-polyfill --require babel-register --watch"
+  }
+}
